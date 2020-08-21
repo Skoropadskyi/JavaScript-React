@@ -69,6 +69,7 @@
 // };
 
 
+
 // console.log(document.body);
 // console.log(document.documentElement);
 // console.log(document.body.childNodes);
@@ -82,10 +83,59 @@
 
 // console.log(document.querySelector('[data-current="3"]').nextElementSibling);
 
-for (let node of document.body.childNodes) {
-    if (node.nodeName === '#text') {
-        continue;
-    }
+// for (let node of document.body.childNodes) {
+//     if (node.nodeName === '#text') {
+//         continue;
+//     }
+//
+//     console.log(node);
+// }
 
-    console.log(node);
-}
+
+
+// touchstart
+// touchmove
+// touchend
+// touchenter
+// touchleave
+// touchcancel
+
+// window.addEventListener('DOMContentLoaded', () => {
+//     const box = document.querySelector('.box');
+//
+//     box.addEventListener('touchstart', (e) => {
+//         e.preventDefault();
+//
+//         console.log('Start');
+//         console.log(e.targetTouches);
+//     });
+//
+//     box.addEventListener('touchmove', (e) => {
+//         e.preventDefault();
+//
+//         console.log('Move');
+//     });
+//
+//     box.addEventListener('touchend', (e) => {
+//         e.preventDefault();
+//
+//         console.log('End');
+//     });
+// });
+
+// touches
+// targetTouches
+// changedTouches
+
+
+
+
+
+
+
+
+
+
+
+
+
