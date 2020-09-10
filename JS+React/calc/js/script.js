@@ -23,5 +23,6 @@ inputRub.addEventListener('input', () => {
    // statusText
    // response
    // readyState
-    
+
+
 });
