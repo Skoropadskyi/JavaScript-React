@@ -140,3 +140,44 @@
 // console.log(localStorage.getItem('number')); //получить значение ключа
 
 
+
+// Регулярные выражения
+
+// new RegExp('pattern', 'flags');
+// /pattern/f
+
+// const ans = prompt('Ввелите ваше имя');
+//
+// const reg = /n/i;
+// console.log(reg.test(ans)); //true / false
+
+// const str = 'My name is R2D2';
+// console.log(str.match(/\w\d\w\d/i));
+
+// \D // не числа
+// \W // не буквы
+
+// \d // ищем все цифры
+// \w // ищем все слова
+// \s // ищем все пробелы
+
+// i
+// g
+// m
+
+// console.log(ans.search(reg));
+// console.log(ans.match(reg)); //получаем массив
+
+// const  pass = prompt('Password');
+
+// console.log(pass.replace(/./g, "*"));
+
+// console.log('12-34-56'.replace(/-/g, ":"));
+
+
+
+
+
+
+
+
