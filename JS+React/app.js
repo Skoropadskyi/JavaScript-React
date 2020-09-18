@@ -128,3 +128,15 @@
 // console.log(newArr);
 
 
+
+// LocalStorage
+
+// localStorage.setItem('number', 5); //записать ключ
+//
+// localStorage.removeItem('number'); //удалить ключ
+//
+// localStorage.clear(); //очистить хранилище
+//
+// console.log(localStorage.getItem('number')); //получить значение ключа
+
+
